@@ -13,7 +13,7 @@ func main() {
 
 	handleError(err)
 
-	fmt.Printf("%v = %6f: ", sum, value)
+	fmt.Printf("%#v = %6f", sum, value)
 }
 
 func handleError(err error) {
